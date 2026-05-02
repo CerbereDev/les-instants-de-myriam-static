@@ -33,7 +33,7 @@ const ContactSection = () => {
               <span className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center group-hover:bg-gold/20 transition-colors">
                 <Phone size={20} />
               </span>
-              <span>+33 6 12 34 56 78</span>
+              <span>+33 6 58 86 80 59</span>
             </a>
             <div className="flex items-center gap-4 text-primary-foreground/80">
               <span className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center">
@@ -46,18 +46,11 @@ const ContactSection = () => {
           {/* Social Links */}
           <div className="flex gap-4">
             <a
-              href="#"
+              href="https://www.instagram.com/les_instants_demyriam/"
               className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground/80 hover:bg-gold hover:text-charcoal transition-all"
               aria-label="Instagram"
             >
               <Instagram size={20} />
-            </a>
-            <a
-              href="#"
-              className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center text-primary-foreground/80 hover:bg-gold hover:text-charcoal transition-all"
-              aria-label="Facebook"
-            >
-              <Facebook size={20} />
             </a>
           </div>
         </div>

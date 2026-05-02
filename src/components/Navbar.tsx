@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Instagram } from "lucide-react";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -51,6 +51,17 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
+          <a
+            href="https://www.instagram.com/les_instants_demyriam/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className={`transition-all duration-300 hover:text-accent ${
+              isScrolled ? "text-foreground" : "text-primary-foreground"
+            }`}
+          >
+            <Instagram size={20} />
+          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -82,6 +93,16 @@ const Navbar = () => {
               {link.label}
             </a>
           ))}
+          <a
+            href="https://www.instagram.com/les_instants_demyriam/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+            className="flex items-center gap-2 text-sm font-medium tracking-wide uppercase text-foreground hover:text-accent transition-colors py-2"
+          >
+            <Instagram size={18} />
+            Instagram
+          </a>
         </div>
       </div>
     </nav>
