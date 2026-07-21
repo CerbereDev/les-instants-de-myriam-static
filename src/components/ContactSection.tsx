@@ -24,16 +24,7 @@ const ContactSection = () => {
               <span className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center group-hover:bg-gold/20 transition-colors">
                 <Mail size={20} />
               </span>
-              <span>contact@lesinstantsdemyriam.fr</span>
-            </a>
-            <a
-              href="tel:+33612345678"
-              className="flex items-center gap-4 text-primary-foreground/80 hover:text-gold transition-colors group"
-            >
-              <span className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center group-hover:bg-gold/20 transition-colors">
-                <Phone size={20} />
-              </span>
-              <span>+33 6 58 86 80 59</span>
+              <span>lesinstantsdemyriam@gmail.com</span>
             </a>
             <div className="flex items-center gap-4 text-primary-foreground/80">
               <span className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center">
