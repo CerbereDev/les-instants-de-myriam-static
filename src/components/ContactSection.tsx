@@ -18,7 +18,7 @@ const ContactSection = () => {
           {/* Contact Info */}
           <div className="space-y-6 mb-10">
             <a
-              href="mailto:contact@lesinstantsdemyriam.fr"
+              href="mailto:lesinstantsdemyriam@gmail.com"
               className="flex items-center gap-4 text-primary-foreground/80 hover:text-gold transition-colors group"
             >
               <span className="w-12 h-12 rounded-full bg-primary-foreground/10 flex items-center justify-center group-hover:bg-gold/20 transition-colors">
